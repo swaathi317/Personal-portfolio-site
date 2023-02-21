@@ -1,0 +1,12 @@
+{
+    "header": {
+        "logo_alt_text": "Logo: S within curly braces",
+        "menu_items": [
+            "about",
+            "skills",
+            "experience",
+            "projects",
+            "blog"
+        ]
+    }
+}

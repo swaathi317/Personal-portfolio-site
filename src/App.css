@@ -1,0 +1,45 @@
+/* -------START: COMMON STYLES---------------- */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Calibre", "San Francisco", "SF Pro Text", system-ui, "Roboto", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  background-color: var(--theme-blue);
+  color: var(--font-color-primary);
+}
+
+:root {
+  --theme-blue: #192231;
+  --theme-pink: #985E6D;
+  --font-color-primary: #FFFFFF;
+  --font-color-secondary: #B4B6C3;
+  --border-radius-container: 8px;
+  --theme-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --desktop-screen-size: 1200px;
+  --tablet-screen-size: 900px;
+  --mobile-screen-size: 500px;
+  --profile-image-width: 250px;
+  --profile-image-height: 250px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.body-wrapper {
+  width: 100%;
+  position: relative;
+
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 80px auto;
+  overflow: hidden;
+}
+
+.content-wrapper .sectional-wrapper {
+  margin: 80px 0 0;
+}
+
+/* -------END: COMMON STYLES---------------- */
