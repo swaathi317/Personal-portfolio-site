@@ -23,7 +23,10 @@ const Home = () => {
                 <div className="content-wrapper">
 
                     <AboutSection />
+                    <BlogsSection />
+                    <RecommendationsSection />
                 </div>
+                <footer> Designed & Developed by Swaathi </footer>
             </div>
 
         </>

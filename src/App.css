@@ -15,6 +15,7 @@
   --font-color-secondary: #B4B6C3;
   --border-radius-container: 8px;
   --theme-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --theme-grid-boxes-background: rgba(73, 78, 104, 0.5);
   --desktop-screen-size: 1200px;
   --tablet-screen-size: 900px;
   --mobile-screen-size: 500px;
@@ -38,8 +39,52 @@
   overflow: hidden;
 }
 
-.content-wrapper .sectional-wrapper {
-  margin: 80px 0 0;
+.sectional-wrapper {
+  margin: 80px 0;
+  overflow: hidden;
+}
+
+.section-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+  color: var(--theme-pink);
 }
 
 /* -------END: COMMON STYLES---------------- */
+
+/* -------START: SOCIAL MEDIA BAR STYLES---------------- */
+#social-link-wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+}
+
+.social-item-list {
+  list-style: none;
+}
+
+.social-item-list li {
+  margin-bottom: 20px;
+}
+
+.social-item-list img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-item-list::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: var(--theme-pink);
+}
+
+/* -------END: SOCIAL MEDIA BAR STYLES---------------- */

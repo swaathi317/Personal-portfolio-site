@@ -8,5 +8,68 @@
             "projects",
             "blog"
         ]
+    },
+    "social_links": [
+        {
+            "platform_name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/swaathi-sundaramurugan/",
+            "logo_name": "linkedin_logo.svg"
+        },
+        {
+            "platform_name": "GitHub",
+            "link": "https://github.com/swaathi317",
+            "logo_name": "github_logo.svg"
+        },
+        {
+            "platform_name": "Medium",
+            "link": "https://swaathi317.medium.com/",
+            "logo_name": "medium_logo.svg"
+        },
+        {
+            "platform_name": "Mail",
+            "link": "mailto:swaathi317@gmail.com",
+            "logo_name": "mail.svg"
+        }
+    ],
+    "blogs": {
+        "section_title": "Popular Blogs",
+        "more_blogs_link": "",
+        "blog_posts": [
+            {
+                "blog_image_link": "blog_1.png",
+                "blog_title": "Five Golden Rules for Cleaning Data in Power BI",
+                "blog_description": "The article discusses the importance of data cleaning and transformation in Power BI in order to improve query performance and save Power BI's internal memory space. It goes over the five golden rules for efficiently cleaning data in Power BI, such as dealing with column headers, promoting headers and removing top rows, renaming columns, removing columns, unpivoting columns, pivoting columns, and dealing with row values.",
+                "blog_link": "https://medium.com/@swaathi317/five-golden-rules-for-cleaning-data-in-power-bi-a50ed37dda54"
+            },
+            {
+                "blog_image_link": "blog_2.png",
+                "blog_title": "Cracking The YouTube Algorithm",
+                "blog_description": "This article explains how YouTube's recommendation system works. It describes the general recommendation system overview, the recommendation system architecture, and the factors that YouTube optimizes in reliance on the attributes of watch history, search history, demographic features, and channels. The article also discusses the ranking system of YouTube's recommendation engine, which is critical to the overall health of the YouTube ecosystem.",
+                "blog_link": "https://medium.com/sfu-cspmp/are-you-a-mind-reader-youtube-bca5ee5ed3d0"
+            },
+            {
+                "blog_image_link": "blog_3.png",
+                "blog_title": "Big Data - An Introduction",
+                "blog_description": "This article provides a comprehensive introduction to big data, its definition, applications, and the need for big data technologies. It also covers the different forms of big data and the criteria for determining if a firm requires big data technologies to address its problems. It further delves into the data science process, outlining the five steps that organizations can take to extract insights from big data.",
+                "blog_link": "https://medium.com/analytics-vidhya/big-data-an-introduction-b7bc048081c9"
+            }
+        ]
+    },
+    "recommendations": {
+        "section_title": "Recommendations",
+        "recommendation_content": [
+            {
+                "recommendation_content": "I had the pleasure of working with Swaathi and supervising her work. She designed and developed the front end for our demos (UI) and mock-ups of our analytical dashboard. She did excellent work, gave appropriate estimates on time, was capable of independent work, yet knew when to ask questions. She was very easy and pleasant to worth with and happily re-adjusted when work or the team required it. Plus she was very reliable on delivery time and quality! I would definitely recommend her to other teams and future employers.",
+                "giver_name": "Lina Forcier",
+                "giver_role": "CEO & Co-Founder",
+                "given_company": "Factually Health"
+            },
+            {
+                "recommendation_content": "Swaathi has exceptional skills in UI development with HTML, CSS, Javascript and Node JS. She is extremely committed and passionate about learning new technologies. I had worked with her in a couple of projects and besides her excellent work on UI development and Full Stack JS, she also has insights and proposals on improving the user experiences of the product. It was definitely my pleasure to work with Swaathi for a short span of time. She is definitely a great asset to any team.",
+                "giver_name": "Nijin Vinodan",
+                "giver_role": "Practice Lead - Software Engineering",
+                "given_company": "Sirius Computer Solutions"
+            }
+        ]
     }
 }
