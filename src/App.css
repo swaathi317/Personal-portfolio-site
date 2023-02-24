@@ -14,7 +14,7 @@
   --font-color-primary: #FFFFFF;
   --font-color-secondary: #B4B6C3;
   --border-radius-container: 8px;
-  --theme-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --theme-box-shadow: 0px 3px 10px 5px rgba(20, 20, 20, 0.30);
   --theme-grid-boxes-background: rgba(73, 78, 104, 0.5);
   --desktop-screen-size: 1200px;
   --tablet-screen-size: 900px;
@@ -34,19 +34,21 @@
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 80%;
   margin: 80px auto;
   overflow: hidden;
 }
 
 .sectional-wrapper {
-  margin: 80px 0;
+  margin: 50px 0;
   overflow: hidden;
+  padding-top: 70px;
 }
 
 .section-header {
   font-size: 30px;
   font-weight: bold;
+  padding-top: 70px;
 }
 
 footer {

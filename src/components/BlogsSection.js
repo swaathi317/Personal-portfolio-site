@@ -8,7 +8,7 @@ const BlogsSection = () => {
 
     return (
         <div className="sectional-wrapper">
-            <div id="blogs" >
+            <div id="blog" >
                 <div className="section-header">
                     {CONSTANTS.blogs.section_title}
                 </div>

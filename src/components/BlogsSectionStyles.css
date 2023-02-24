@@ -7,9 +7,10 @@
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    width: 90%;
+    width: 100%;
     margin: 35px auto;
     justify-content: center;
+    padding: 0 10px;
 }
 
 .blog-post,
@@ -26,7 +27,8 @@
 .blog-post {
     padding: 15px;
     justify-content: flex-start;
-    background: var(--theme-grid-boxes-background);
+    /* border: 1px solid var(--theme-pink); */
+    box-shadow: var(--theme-box-shadow);
 }
 
 .rec-item {
@@ -75,12 +77,14 @@
 }
 
 .more-blogs-container {
-    margin-right: 5%;
+
     text-align: right;
 }
 
 
 .more-blogs-container a {
+    font-size: 18px;
+    font-weight: bold;
     color: var(--theme-pink);
 
 }

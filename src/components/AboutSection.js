@@ -14,42 +14,42 @@ const AboutSection = () => {
                 <div className="about-content-container">
                     <div className="name-container">
                         <div className="first-name-container">
-                            Swaathi
+                            {CONSTANTS.about.first_name}
                         </div>
                         <div className="last-name-container">
-                            Sundaramurugan
+                            {CONSTANTS.about.last_name}
                         </div>
                     </div>
                     <div className="position-container">
-                        Data Engineer | Full Stack Developer
+                        {CONSTANTS.about.roles}
                     </div>
                     <div className="introduction-container">
-                        I have experience in Full-Stack Development and Data Engineering. As a flexible technologist, I bring a special viewpoint to developing end-to-end solutions for challenging issues. I have a background in software engineering and a strong grasp of creating web applications with modern frameworks like React and Node.js. Additionally, I have experience designing and constructing cloud data pipelines, which convert raw data into actionable insights by integrating diverse data sources and formats. I have a lot of experience creating and optimizing schemas for both SQL and NoSQL databases. I have also worked with data warehousing tools like Amazon Redshift and Google BigQuery. I thrive as a committed problem solver when I can connect business and technology to produce significant results.
+                        {CONSTANTS.about.introduction_content}
                     </div>
                 </div>
                 <div className="about-image-container">
                     <div className="image-square">
                         <div className="image-container">
-                            <img src={profileImage} alt={CONSTANTS.header.logo_alt_text} />
+                            <img src={profileImage} alt={CONSTANTS.about.first_name} />
                         </div>
                     </div>
                 </div>
             </div>
             <div className="stat-download-container">
                 <div className="stat-container">
-                    <div className="stat-item">
-                        <div className="stat-number"> 3+ </div>
-                        <div className="stat-description"> Years of Experience </div>
-                    </div>
-                    <div className="stat-item">
-                        <div className="stat-number"> 10 </div>
-                        <div className="stat-description"> Products developed and delivered for Enterprises </div>
-                    </div>
+
+                    {CONSTANTS.about.stats.map((statItem) => (
+                        <div className="stat-item">
+                            <div className="stat-number"> {statItem.stat_number} </div>
+                            <div className="stat-description"> {statItem.stat_description} </div>
+                        </div>
+                    ))
+                    }
                 </div>
                 <div className="download-container">
-                    < a href="https://drive.google.com/file/d/1PkLhSOnFrTH4UR4cW8fMnmvfxcsBX7j7/view?usp=share_link" target="_blank" >
+                    < a href={CONSTANTS.about.resume_download_link} target="_blank" >
                         <div className="download-button">
-                            Download Resume
+                            {CONSTANTS.about.download_button_text}
                         </div>
                     </a>
                 </div>

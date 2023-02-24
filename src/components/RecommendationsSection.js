@@ -16,7 +16,7 @@ const RecommendationsSection = () => {
 
                     {CONSTANTS.recommendations.recommendation_content.map((recItem) => (
                         <div className="rec-item">
-                            <div className="rec-content"> {recItem.recommendation_content} </div>
+                            <div className="rec-content"> {' " ' + recItem.recommendation_content + ' "'} </div>
                             <div>
                                 <div className="rec-author-name"> {recItem.giver_name} </div>
                                 <div className="rec-author-role"> {recItem.giver_role} </div>

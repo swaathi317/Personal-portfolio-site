@@ -9,6 +9,24 @@
             "blog"
         ]
     },
+    "about": {
+        "first_name": "Swaathi",
+        "last_name": "Sundaramurugan",
+        "roles": "Hi there! I'm a Data Engineer and Full-Stack Developer.",
+        "introduction_content": "I love building creative and scalable end-to-end web solutions and data products. Let's collaborate to bring your ideas to life!",
+        "stats": [
+            {
+                "stat_number": "3+",
+                "stat_description": "Years of Experience"
+            },
+            {
+                "stat_number": "10",
+                "stat_description": "Products developed and delivered for Enterprises"
+            }
+        ],
+        "resume_download_link": "https://drive.google.com/file/d/1PkLhSOnFrTH4UR4cW8fMnmvfxcsBX7j7/view?usp=share_link",
+        "download_button_text": "Download Resume"
+    },
     "social_links": [
         {
             "platform_name": "LinkedIn",
@@ -31,6 +49,115 @@
             "logo_name": "mail.svg"
         }
     ],
+    "skills": {
+        "section_title": "Skills",
+        "skills_description": "As a flexible technologist, I bring a special viewpoint to developing end-to-end solutions for challenging issues. I have a background in software engineering and a strong grasp of creating web applications with modern frameworks like React and Node.js. Additionally, I have experience designing and constructing cloud data pipelines, which convert raw data into actionable insights by integrating diverse data sources and formats. I have developed and improved many schemas for both SQL and NoSQL databases.  I have also worked with data warehousing tools like Amazon Redshift and Google BigQuery. I thrive as a committed problem solver when I can connect business and technology to produce significant results.",
+        "skills_content": [
+            {
+                "skill_name": "Big Data",
+                "skill_tools": [
+                    "Python",
+                    "JAVA",
+                    "Hadoop",
+                    "Spark",
+                    "Kafka",
+                    "Cassandra DB"
+                ]
+            },
+            {
+                "skill_name": "Data Pipelines on Google Cloud Platform",
+                "skill_tools": [
+                    "Dataflow",
+                    "BigQuery",
+                    "Cloud Composer",
+                    "Cloud Storage"
+                ]
+            },
+            {
+                "skill_name": "Data Pipelines on Amazon Web Services",
+                "skill_tools": [
+                    "Elastic MapReduce",
+                    "Redshift",
+                    "DynamoDB",
+                    "S3"
+                ]
+            },
+            {
+                "skill_name": "Business Intelligence Analytics",
+                "skill_tools": [
+                    "Tableau",
+                    "Power BI",
+                    "Exasol"
+                ]
+            },
+            {
+                "skill_name": "Full Stack development",
+                "skill_tools": [
+                    "React",
+                    "Node.js",
+                    "JavaScript",
+                    "HTML",
+                    "CSS"
+                ]
+            }
+        ],
+        "badges": [
+            {
+                "badge_name": "Google Cloud Digital Leader",
+                "badge_image_link": "google_cloud_digital_leader.png",
+                "badge_external_link": "https://www.credential.net/7ceb86d4-87d8-4398-898d-3a9187063bbb"
+            },
+            {
+                "badge_name": "Apache Cassandra 3 Developer Associate",
+                "badge_image_link": "Apache-Cassandra-Developer-Associate-Certification-Badge.png",
+                "badge_external_link": "https://certification.mettl.com/datastax/applicant/verify-certification-with-qr?email=swaathi317%40gmail.com&assessment=Apache%20Cassandra%203%20Developer%20Associate%20Certification&date=Nov%2014,%202021"
+            }
+        ]
+    },
+    "projects": {
+        "section_title": "Featured Projects",
+        "more_projects_link": "https://github.com/swaathi317",
+        "project_content": [
+            {
+                "project_name": "Metacent, an end-to-end data product for NFT investments",
+                "tools_used": [
+                    "Python",
+                    "HDFS",
+                    "Spark",
+                    "Dynamo DB",
+                    "React",
+                    "Node.js"
+                ],
+                "project_image_link": "metacent_2.png",
+                "project_github_link": "https://github.com/swaathi317/metacent-rarity",
+                "project_demo_link": "https://metacent.cyclic.app/collections/",
+                "project_description": [
+                    "NFTs are a booming market and many investors are struggling to navigate the market to invest in valuable NFTs. Metacent, our end-to-end data product facilitates the investors and the NFT creators to make better NFT investments.",
+                    "Our product provides curated statistical analysis on transactional performance of a collection through transaction mapping, and ranks each NFT of a collection based on Rarity. ",
+                    "The platform also establishes the relationship between the rarity and price of an NFT in addition to providing a price evaluation for each NFT based on comparing three different machine learning models"
+                ]
+            },
+            {
+                "project_name": "Metacent, an end-to-end data product for NFT investments",
+                "tools_used": [
+                    "Python",
+                    "HDFS",
+                    "Spark",
+                    "Dynamo DB",
+                    "React",
+                    "Node.js"
+                ],
+                "project_image_link": "metacent_2.png",
+                "project_github_link": "https://github.com/swaathi317/metacent-rarity",
+                "project_demo_link": "https://metacent.cyclic.app/collections/",
+                "project_description": [
+                    "NFTs are a booming market and many investors are struggling to navigate the market to invest in valuable NFTs. Metacent, our end-to-end data product facilitates the investors and the NFT creators to make better NFT investments.",
+                    "Our product provides curated statistical analysis on transactional performance of a collection through transaction mapping, and ranks each NFT of a collection based on Rarity. ",
+                    "The platform also establishes the relationship between the rarity and price of an NFT in addition to providing a price evaluation for each NFT based on comparing three different machine learning models"
+                ]
+            }
+        ]
+    },
     "blogs": {
         "section_title": "Popular Blogs",
         "more_blogs_link": "",
@@ -38,19 +165,19 @@
             {
                 "blog_image_link": "blog_1.png",
                 "blog_title": "Five Golden Rules for Cleaning Data in Power BI",
-                "blog_description": "The article discusses the importance of data cleaning and transformation in Power BI in order to improve query performance and save Power BI's internal memory space. It goes over the five golden rules for efficiently cleaning data in Power BI, such as dealing with column headers, promoting headers and removing top rows, renaming columns, removing columns, unpivoting columns, pivoting columns, and dealing with row values.",
+                "blog_description": "The article discusses the importance of data cleaning and transformation in Power BI in order to improve query performance and save Power BI's internal memory space. It goes over the five golden rules for efficiently cleaning data in Power BI.",
                 "blog_link": "https://medium.com/@swaathi317/five-golden-rules-for-cleaning-data-in-power-bi-a50ed37dda54"
             },
             {
                 "blog_image_link": "blog_2.png",
                 "blog_title": "Cracking The YouTube Algorithm",
-                "blog_description": "This article explains how YouTube's recommendation system works. It describes the general recommendation system overview, the recommendation system architecture, and the factors that YouTube optimizes in reliance on the attributes of watch history, search history, demographic features, and channels. The article also discusses the ranking system of YouTube's recommendation engine, which is critical to the overall health of the YouTube ecosystem.",
+                "blog_description": "This article explains how YouTube's recommendation system works. It describes the general recommendation system overview, the recommendation system architecture, and the factors that YouTube optimizes in reliance on the attributes of watch history, search history, demographic features, and channels.",
                 "blog_link": "https://medium.com/sfu-cspmp/are-you-a-mind-reader-youtube-bca5ee5ed3d0"
             },
             {
                 "blog_image_link": "blog_3.png",
                 "blog_title": "Big Data - An Introduction",
-                "blog_description": "This article provides a comprehensive introduction to big data, its definition, applications, and the need for big data technologies. It also covers the different forms of big data and the criteria for determining if a firm requires big data technologies to address its problems. It further delves into the data science process, outlining the five steps that organizations can take to extract insights from big data.",
+                "blog_description": "This article provides a comprehensive introduction to big data, its definition, applications, and the need for big data technologies. It also covers the different forms of big data and the criteria for determining if a firm requires big data technologies to address its problems.",
                 "blog_link": "https://medium.com/analytics-vidhya/big-data-an-introduction-b7bc048081c9"
             }
         ]
