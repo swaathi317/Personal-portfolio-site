@@ -114,6 +114,104 @@
             }
         ]
     },
+    "experience": {
+        "section_title": "Experience",
+        "experience_details": [
+            {
+                "job_id": "0",
+                "job_name": "Data Engineer Intern",
+                "company_name": "Cittabase Solutions",
+                "job_duration": "May 2022 - December 2022",
+                "job_description": [
+                    "Developed cloud data pipelines for campaign analysis using Dataflow, BigQuery, and Cloud Storage to perform ETL operations on structured and semi-structured data from various data sources like Hubspot and LinkedIn Navigator.",
+                    "Automated data pipelines utilizing Cloud Composer (Apache Airflow).",
+                    "Designed, analyzed, and published BI Analytics Dashboards with Exasol, Tableau, and Power BI."
+                ],
+                "keywords_to_highlight": [
+                    "Dataflow",
+                    "BigQuery",
+                    "Cloud",
+                    "Storage",
+                    "Cloud",
+                    "Composer",
+                    "Exasol",
+                    "Tableau",
+                    "Power",
+                    "BI"
+                ]
+            },
+            {
+                "job_id": "1",
+                "job_name": "Technology Consultant (Freelance)",
+                "company_name": "Factually Health",
+                "job_duration": "February 2022 - May 2022",
+                "job_description": [
+                    "Designed UI, workflows, and dashboards for an AI-based Health product using Figma.",
+                    "Developed customizable UI components with React framework and deployed front-end on AWS.",
+                    "Managed data collection for the corpus through web scraping."
+                ],
+                "keywords_to_highlight": [
+                    "React",
+                    "AWS",
+                    "Figma"
+                ]
+            },
+            {
+                "job_id": "2",
+                "job_name": "Software Engineer",
+                "company_name": "Traform Inc",
+                "job_duration": "August 2020 - February 2021",
+                "job_description": [
+                    "Coordinated and analyzed application requirements with the Product Management and Visual Design team to ensure a smooth user experience and to satisfy business requisite.",
+                    "Built customizable React components and developed React-Redux and React-Saga workflows for a product that facilitated Business Travel.",
+                    "Optimized components and troubleshot the application to improve functionality recursively."
+                ],
+                "keywords_to_highlight": [
+                    "React",
+                    "React-Redux",
+                    "React-Saga"
+                ]
+            },
+            {
+                "job_id": "3",
+                "job_name": "Associate Consultant",
+                "company_name": "Sirius Computer Solutions",
+                "job_duration": "June 2018 - January 2020",
+                "job_description": [
+                    "Brainstormed and analyzed requirements from clients and organized work processes with the team.",
+                    "Developed RESTful APIs and components for MVC framework-based applications using Node.js.",
+                    "Researched and integrated Workplace(Facebook) and Slack with an idea management application to collect real-time data and send a real-time response using bots.",
+                    "Designed and constructed schemas and models for MongoDB collections.",
+                    "Developed event-driven serverless services with Azure Functions and integrated them with Redis and Cosmos DB using triggers and bindings."
+                ],
+                "keywords_to_highlight": [
+                    "Node.js",
+                    "MongoDB",
+                    "Redis",
+                    "Azure",
+                    "Functions",
+                    "Cosmos",
+                    "DB"
+                ]
+            },
+            {
+                "job_id": "4",
+                "job_name": "Developer Intern",
+                "company_name": "Sirius Computer Solutions",
+                "job_duration": "January 2018 - April 2018",
+                "job_description": [
+                    "Developed an audit tool to track assets, and manage inventory and appointments for the firm using HTML, SASS, jQuery, AJAX, and Spring frameworks."
+                ],
+                "keywords_to_highlight": [
+                    "HTML",
+                    "SASS",
+                    "jQuery",
+                    "AJAX",
+                    "Spring"
+                ]
+            }
+        ]
+    },
     "projects": {
         "section_title": "Featured Projects",
         "more_projects_link": "https://github.com/swaathi317",

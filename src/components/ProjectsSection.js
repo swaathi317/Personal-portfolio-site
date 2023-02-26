@@ -40,10 +40,10 @@ const ProjectsSection = () => {
                                     </div>
                                     <div className="project-links">
                                         <div className="demo-link">
-                                            <a href={projectItem.project_demo_link} > <img src={linkIcon} alt="Demo link icon" /> Demo </a>
+                                            <a href={projectItem.project_demo_link} target="_blank" > <img src={linkIcon} alt="Demo link icon" /> Demo </a>
                                         </div>
                                         <div className="code-link">
-                                            <a href={projectItem.project_github_link} > <img src={githubIcon} alt="Github link icon" /> Code </a>
+                                            <a href={projectItem.project_github_link} target="_blank"> <img src={githubIcon} alt="Github link icon" /> Code </a>
                                         </div>
                                     </div>
                                 </div>
