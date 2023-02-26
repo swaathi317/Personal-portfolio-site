@@ -1,12 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../assets/icons/logo.svg';
+import menuIcon from '../assets/icons/menu_icon.svg';
+import closeIcon from '../assets/icons/close_icon.svg';
 import CONSTANTS from '../constants/textConstants.json';
 
 import './HeaderStyle.css';
 
-const Header = () => {
+const Header = (props) => {
 
     const [activeTab, setActiveTab] = useState('about');
+    const [openMenu, setOpenMenu] = useState(false);
+
+    let screenWidth = props.screenWidth;
+
 
     return (
 
@@ -15,17 +21,48 @@ const Header = () => {
                 <div className="logo-container">
                     <img src={logo} alt={CONSTANTS.header.logo_alt_text} />
                 </div>
-                <div className="menu-container">
-                    {
-                        CONSTANTS.header.menu_items.map((menuItem) => (
+                {screenWidth >= 850 &&
+                    <div className="menu-container">
+                        {
+                            CONSTANTS.header.menu_items.map((menuItem) => (
 
-                            <div className={activeTab === menuItem ? "menu-item is-active" : "menu-item"} onClick={() => setActiveTab(menuItem)}>
-                                <a href={"#" + menuItem}> {menuItem} </a>
+                                <div className={activeTab === menuItem ? "menu-item is-active" : "menu-item"} onClick={() => setActiveTab(menuItem)}>
+                                    <a href={"#" + menuItem}> {menuItem} </a>
+                                </div>
+
+                            ))
+                        }
+                    </div>
+                }
+
+                {
+                    screenWidth < 850 &&
+                    <>
+
+                        <div className="menu-icon-container" onClick={() => setOpenMenu(!openMenu)}>
+
+                            <img src={openMenu === false ? menuIcon : closeIcon} alt='Menu icon' />
+                        </div>
+
+
+                        {openMenu &&
+
+                            <div className="menu-container">
+                                {
+                                    CONSTANTS.header.menu_items.map((menuItem) => (
+
+                                        <div className={activeTab === menuItem ? "menu-item is-active" : "menu-item"} onClick={() => { setActiveTab(menuItem); setOpenMenu(!openMenu) }}>
+                                            <a href={"#" + menuItem}> {menuItem} </a>
+                                        </div>
+
+                                    ))
+                                }
                             </div>
 
-                        ))
-                    }
-                </div>
+                        }
+
+                    </>
+                }
             </div>
         </div>
 

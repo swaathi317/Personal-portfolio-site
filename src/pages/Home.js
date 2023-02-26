@@ -12,21 +12,32 @@ import RecommendationsSection from '../components/RecommendationsSection';
 
 
 const Home = () => {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setScreenWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     return (
         <>
             <div className="body-wrapper">
 
-                <Header />
+                <Header screenWidth={screenWidth} />
                 <SocialLinksBar />
                 <div className="content-wrapper">
 
-                    <AboutSection />
+                    <AboutSection screenWidth={screenWidth} />
                     <SkillsSection />
-                    <ExperienceSection />
+                    <ExperienceSection screenWidth={screenWidth} />
                     <ProjectsSection />
                     <BlogsSection />
-                    <RecommendationsSection />
+                    <RecommendationsSection screenWidth={screenWidth} />
                 </div>
                 <footer> Designed & Developed by Swaathi </footer>
             </div>

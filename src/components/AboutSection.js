@@ -4,8 +4,9 @@ import CONSTANTS from '../constants/textConstants.json';
 
 import './AboutSectionStyle.css';
 
-const AboutSection = () => {
+const AboutSection = (props) => {
 
+    let screenWidth = props.screenWidth;
 
     return (
 
@@ -53,6 +54,22 @@ const AboutSection = () => {
                         </div>
                     </a>
                 </div>
+
+                {
+                    screenWidth < 850 &&
+                    <div className="social-media-container">
+
+                        {
+                            CONSTANTS.social_links.map((socialItem) => (
+
+                                <div> <a href={socialItem.link} target="_blank"> <img src={require("../assets/icons/" + socialItem.logo_name)} alt={socialItem.platform_name} /></a></div>
+
+                            ))
+                        }
+
+                    </div>
+                }
+
             </div>
         </div>
 

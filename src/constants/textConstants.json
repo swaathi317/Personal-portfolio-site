@@ -213,28 +213,9 @@
         ]
     },
     "projects": {
-        "section_title": "Featured Projects",
+        "section_title": "Featured Project",
         "more_projects_link": "https://github.com/swaathi317",
         "project_content": [
-            {
-                "project_name": "Metacent, an end-to-end data product for NFT investments",
-                "tools_used": [
-                    "Python",
-                    "HDFS",
-                    "Spark",
-                    "Dynamo DB",
-                    "React",
-                    "Node.js"
-                ],
-                "project_image_link": "metacent_2.png",
-                "project_github_link": "https://github.com/swaathi317/metacent-rarity",
-                "project_demo_link": "https://metacent.cyclic.app/collections/",
-                "project_description": [
-                    "NFTs are a booming market and many investors are struggling to navigate the market to invest in valuable NFTs. Metacent, our end-to-end data product facilitates the investors and the NFT creators to make better NFT investments.",
-                    "Our product provides curated statistical analysis on transactional performance of a collection through transaction mapping, and ranks each NFT of a collection based on Rarity. ",
-                    "The platform also establishes the relationship between the rarity and price of an NFT in addition to providing a price evaluation for each NFT based on comparing three different machine learning models"
-                ]
-            },
             {
                 "project_name": "Metacent, an end-to-end data product for NFT investments",
                 "tools_used": [
