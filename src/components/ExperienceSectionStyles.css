@@ -30,6 +30,7 @@
 
 .job-active {
     border-left: 3px solid var(--theme-pink);
+    background-color: var(--theme-grid-boxes-background);
 }
 
 .highlight-job-text {

@@ -140,6 +140,7 @@ footer {
   #experience .roles-played-list .job-active {
     border-left: 0;
     border-top: 3px solid var(--theme-pink);
+    background-color: var(--theme-grid-boxes-background);
   }
 
   #projects .project-item {
