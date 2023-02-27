@@ -35,7 +35,7 @@ const Home = () => {
                     <AboutSection screenWidth={screenWidth} />
                     <SkillsSection />
                     <ExperienceSection screenWidth={screenWidth} />
-                    <ProjectsSection />
+                    {/* <ProjectsSection /> */}
                     <BlogsSection />
                     <RecommendationsSection screenWidth={screenWidth} />
                 </div>
